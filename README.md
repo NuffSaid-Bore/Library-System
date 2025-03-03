@@ -1,10 +1,10 @@
-## Library Management System
+# Library Management System
 
-# Overview
+## Overview
 This project is a Library Management System built using JavaFX for the user interface and MySQL for the database. The system allows users to perform various actions such as adding, updating, deleting, searching, and sorting books in a library.
 
 
-# Key Features:
+### Key Features:
   - **Display Books:** Load and display book data from the MySQL database.
   - **Insert New Books:** Add new records to the library database.
   - **Search for Books:** Search for books by title, author, or other criteria.
@@ -12,20 +12,20 @@ This project is a Library Management System built using JavaFX for the user inte
   - **Delete Books:** Remove books from the database.
   - **Sort Data:** Sort books based on different attributes like title or author.
     
-# Technologies Used:
+### Technologies Used:
   - **JavaFX:** For the user interface.
   - **MySQL:** For the database backend.
   - **JDBC:** Java Database Connectivity to interact with MySQL.
   - **Maven:** For project dependency management.
 
-# Getting Started
+### Getting Started
 
-# Prerequisites
+### Prerequisites
   - **Java 8 or later:** Make sure you have Java installed on your machine.
   - **MySQL:** MySQL server installed and running locally or on a remote server.
   - **JDBC Driver:** MySQL JDBC driver (mysql-connector-java) is required to establish a connection between Java and MySQL.
 
-# Installation
+### Installation
   1. **Clone the repository:**
      ```bash
        git clone https://github.com/NuffSaid-Bore/Library-System.git
@@ -47,7 +47,7 @@ This project is a Library Management System built using JavaFX for the user inte
      - Open the project in your IDE (e.g., IntelliJ IDEA, Eclipse, vs code).
      - Compile and run the Main class to launch the library management system.
 
-# Usage
+### Usage
   - **Display Books:** Upon startup, the system will display all books from the database.
   - **Insert New Books:** Use the "Add Book" form to enter new book details and click "Submit" to insert them into the database.
   - **Search for Books:** Enter search criteria (e.g., title or author) in the search bar and hit "Search" to filter the books.
@@ -55,7 +55,7 @@ This project is a Library Management System built using JavaFX for the user inte
   - **Delete Books:** Select a book and click "Delete" to remove it from the database.
   - **Sort Data:** Use sorting options (by title, author, or year) to order the book list.
 
-# Contributing
+### Contributing
 Contributions are welcome! If you have suggestions or improvements, feel free to fork the repository and create a pull request.
   1. Fork the repository.
   2. Create a new branch for your feature or fix.
@@ -64,4 +64,4 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
   5. Open a pull request for review.
 
 
-# License
+### License
